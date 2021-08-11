@@ -88,7 +88,7 @@ AG3=mhz2mt(Sys3.A,Sys3.g)*10;
 
 %% Some useful lines of code
 
-% If convert hyperfine values to Gauss, type AG1, AG2, or AG3 after running
+% To convert hyperfine values to Gauss, type AG1, AG2, or AG3 after running
 % the simulation.
 
 % To manually convert the hyperfine units from Gauss to MHz, type
