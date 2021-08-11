@@ -1,8 +1,8 @@
 % Sections marked by the green % are notes that describe what each line of
 % code represents, or explains what step needs to run the simulation
-% smoothly. The x-axis of the CW-EPR spectra should be in Gauss. If spectra
-% are in mT, then lines 77 and 84 in the last section will need 
-% to be changed to include the factor of 10.
+% smoothly. The x-axis of the CW-EPR spectra should be in Gauss. If 
+% experimental spectra are in mT, then lines 77 and 84 in the last section 
+% will need to be changed to not include the factor of 10.
 
 % Make sure that this code is in the easyspin folder.
 
