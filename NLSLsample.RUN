@@ -1,0 +1,45 @@
+echo This is a sample script for NLSL_TR. Other versions might use different parameters and syntax
+echo This will vary the C20 ordering coefficient, gib0 broadening parameter, and rbar rotational correlation rate
+
+log FileName
+let gxx,gyy,gzz=2.05911,2.05911,2.27631
+let in2=3
+let axx,ayy,azz=10,10,162.1928
+let gib0=41.85936
+
+
+sites 1                                                                          
+let rbar=8
+let n=1
+let betad=90
+let c20=1
+let nort=20
+
+let b0=3200
+
+let lemx,lomx,kmx,mmx,ipnmx=20,19,10,6,4
+data Sample ascii
+
+fit
+vary c20
+echo vary wprp,wpll
+vary rbar
+vary gib0
+search rbar
+search gib0
+search c20
+fit
+search rbar
+search gib0
+search c20
+fit
+search rbar
+search gib0
+search c20
+fit
+search rbar
+search gib0
+search c20
+fit
+fit
+fit
